@@ -138,6 +138,6 @@ test:
 production:
   clients:
     default:
-      uri: $MONGOLAB_URI
+      uri: mongodb://jassimran:Batak@2017@ds113640.mlab.com:13640/tri-tour-results
       options:
         connect_timeout: 15
